@@ -51,7 +51,7 @@ namespace benlester.com
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            //app.UseCookiePolicy(); // commenting out for now until I actively use cookies
 
             app.UseMvc();
         }
