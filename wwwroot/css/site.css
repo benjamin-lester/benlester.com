@@ -7,6 +7,10 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
@@ -55,6 +59,7 @@ body {
   background-size:cover; 
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Montserrat', sans-serif;
   /*color: #F9F9FF;  */
 }
 .footer {
