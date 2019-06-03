@@ -16,28 +16,42 @@
               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
     </environment>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500|Raleway&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-black-transparent border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-black-transparent border-bottom box-shadow mb-3 shift">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">benlester.com</a>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                        <i class="fas fa-bars white"></i>
+                    <!--<span class="navbar-toggler-icon"></span>-->
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link" asp-area="" asp-page="/Index">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-page="/CV">CV</a>
+                            <a class="nav-link" asp-area="" asp-page="/CV">CV</a>
                         </li>
                     </ul>
                 </div>
             </div>
+            
+            
+            <!--<div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a asp-area="" asp-page="/Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-area="" asp-page="/CV">CV</a>
+                        </li>
+                    </ul>
+                </div>-->
         </nav>
     </header>
     <div class="container">
@@ -72,7 +86,7 @@
         </script>
     </environment>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    <script src="https://kit.fontawesome.com/d1a6eac739.js"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
